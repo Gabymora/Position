@@ -2,15 +2,28 @@ div {
 	height: 200px;
 	width: 200px;
 }	
-.verde{
-	background-color: green;
-}
+
+/*---Static: tiene un lugar q nadie ocupara, pero hay que usar "margin" para poderlo recorrer --*/
 .rojo {
 	background-color: red;
+	position: static;
 }
+
+/*---Relative: Se encima a un static y se pone detras de un absolute.*/
 .azul {
 	background-color: blue;
+	position: relative;
+	left: 200px;
+	
 }
+
+/*--- Absolute: Se encima a un relative y a un static.---*/
+.verde{
+	background-color: green;
+	position: absolute;
+	
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
