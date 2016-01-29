@@ -3,7 +3,8 @@ div {
 	width: 200px;
 }	
 
-/*---Static: tiene un lugar q nadie ocupara, pero hay que usar "margin" para poderlo recorrer --*/
+/*---Static: tiene un lugar q nadie ocupara, pero hay que usar "margin" para poderlo recorrer 
+			  no se mueve, generalmente--*/
 .rojo {
 	background-color: red;
 	position: static;
@@ -14,7 +15,6 @@ div {
 	background-color: blue;
 	position: relative;
 	left: 200px;
-	
 }
 
 /*--- Absolute: Se encima a un relative y a un static.---*/
