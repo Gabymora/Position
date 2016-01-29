@@ -3,28 +3,35 @@ div {
 	width: 200px;
 }	
 
-/*---Static: tiene un lugar q nadie ocupara, pero hay que usar "margin" para poderlo recorrer 
-			  no se mueve, generalmente--*/
 .rojo {
-	background-color: red;
-	position: static;
+	background-color: #ee3e64;
+	position: absolute
+	left: 0;
+	top:0;
 }
 
-/*---Relative: Se encima a un static y se pone detras de un absolute.*/
 .azul {
-	background-color: blue;
-	position: relative;
-	left: 200px;
-}
-
-/*--- Absolute: Se encima a un relative y a un static.---*/
-.verde{
-	background-color: green;
+	background-color: #44accf;
 	position: absolute;
-	
+	right: 0px;
+	top:0px;
 }
 
+.verde{
+	background-color: #b7d84b;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+.amarillo {
+	background-color: yellow;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
 body {
 	margin: 0px;
 	padding: 0px;
 }
+/*Para rigth y left, se posicionan respectivamente al elemento no al usuario */
