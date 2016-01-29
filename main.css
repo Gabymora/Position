@@ -5,30 +5,24 @@ div {
 
 .rojo {
 	background-color: #ee3e64;
-	position: absolute
-	left: 0;
-	top:0;
+	position: static;
+	
 }
 
 .azul {
 	background-color: #44accf;
-	position: absolute;
-	right: 0px;
-	top:0px;
+	position: relative;
+	left: 200px;
 }
 
 .verde{
 	background-color: #b7d84b;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
+	position: static;
 }
 
 .amarillo {
 	background-color: yellow;
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
+	position: static;
 }
 body {
 	margin: 0px;
