@@ -1,0 +1,17 @@
+div {
+	height: 200px;
+	width: 200px;
+}	
+.verde{
+	background-color: green;
+}
+.rojo {
+	background-color: red;
+}
+.azul {
+	background-color: blue;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
